@@ -4,17 +4,74 @@ h1, h2, h3, h4{
 
 #row1{
   background-color: #0248ff;
-  height: 100%;
+  height: 230px;
 }
 
 #row1 h2{
   color: white;
+  line-height: 80px;
+  margin: 0;
+  padding: 0;
+}
+#row1 .list-inline li{
+  line-height: 80px;
+  color: blue;
+
 }
 
 #hamb{
   color: white;
-  margin-left: 400px;
+  line-height: 80px;
 }
 #hamb col-md-6{
  display: none;
+}
+@media screen and (max-width: 1199px){
+  #row1 .list-inline{
+    display: none;
+  }
+
+  }
+
+
+@media screen and (min-width: 1199px){
+  #row1{
+    background-color: white;
+
+  }
+  #row1 h2{
+    color: #0248ff;
+
+}
+
+}
+#row1 button{
+ margin-top: 30px;
+ color: #0248ff;
+ background-color: white;
+ border-color: #0248ff;
+ border-radius: 5px;
+ font-size: 15px;
+}
+#row2{
+  background-color: #0248ff;
+}
+#row2 h1{
+  color: white;
+  font-size: 150px;
+  text-align: center;
+}
+#row2 p{
+  color: white;
+  font-size: 50px;
+  text-align: center;
+}
+#tabella{
+  background-color: white;
+  border-radius: 5px;
+  }
+#tabella h2{
+  color: darkblue;
+  text-align: center;
+  font-size: 80px;
 }
