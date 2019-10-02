@@ -1,0 +1,20 @@
+h1, h2, h3, h4{
+  font-family: Sailec-Bold,system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Helvetica,Arial,sans-serif;
+}
+
+#row1{
+  background-color: #0248ff;
+  height: 100%;
+}
+
+#row1 h2{
+  color: white;
+}
+
+#hamb{
+  color: white;
+  margin-left: 400px;
+}
+#hamb col-md-6{
+ display: none;
+}
