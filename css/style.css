@@ -1,4 +1,4 @@
-h1, h2, h3, h4{
+h1, h2, h3, h4, a{
   font-family: Sailec-Bold,system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Helvetica,Arial,sans-serif;
 }
 
@@ -30,15 +30,11 @@ h1, h2, h3, h4{
   #row1 .list-inline{
     display: none;
   }
-
   }
-
-
 @media screen and (min-width: 1199px){
   #row1{
     background-color: white;
-
-  }
+}
   #row1 h2{
     color: #0248ff;
 
@@ -93,4 +89,102 @@ width: 100%;
 }
 .partefinale p{
   color: black;
+}
+
+#row3{
+  height: 400px;
+  background-color: #f3f5f9;
+  padding: 50px 50px;
+  text-align: center;
+
+
+}
+#row3 h2{
+  text-align: center;
+  font-size: 15px;
+  color: #031b4e;
+  opacity: .4;
+}
+#row3 ul{
+  list-style-type: none;
+}
+#row3 li{
+ display: inline-block;
+ width: calc(100% / 6) - 4px);
+}
+
+#row3 ul li img{
+  max-width: 50%;
+  vertical-align: middle;
+}
+@media screen and (max-width: 480px){
+  #row3 li{
+    width: calc(100% / 3) - 4px);
+  }
+}
+#row3 a{
+  color: #0069ff;
+  cursor: pointer;
+}
+#maggiore{
+  color: #0069ff;
+  cursor: pointer;
+}
+#row4{
+  height: 600px;
+  text-align: center;
+  margin-top: 100px;
+}
+#row4 h2{
+  color: #031b4e;
+  font-size: 40px;
+}
+#row4 p{
+  font-size: 20px;
+  margin-top: 16px;
+  font: 400 16px/1.5 Sailec-Regular,system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Helvetica,Arial,sans-serif;
+  color: rgba(3,27,78,.7);
+}
+#row4 ul{
+  list-style-type: none;
+  margin-top: 50px;
+}
+#row4 li{
+  margin-bottom: 25px;
+  color: rgba(3,27,78,.5);
+}
+#scacco{
+  text-align: left;
+}
+#scacco p{
+  margin-top: 0;
+}
+#matto{
+color: #0248ff;
+margin-top: 50px;
+}
+#cd{
+  color: #0248ff;
+}
+#row4 h3{
+  color: #031b4e;
+}
+#thuglife{
+  color: #0248ff;
+  margin-top: 50px;
+}
+#thug{
+  text-align: left;
+}
+#thug p{
+  margin-top: 0;
+}
+#torre{
+  color: #0248ff;
+}
+#row5{
+  height: 700px;
+  text-align: center;
+  margin-top: 100px;
+  background-color: #f3f5f9;
 }
