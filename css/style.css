@@ -225,3 +225,33 @@ margin-top: 20px;
   color: #031b4e;
   font-size: 40px;
 }
+#stella{
+ color: #0248ff;
+ font-size: 50px;
+ margin-top: 50px;
+ margin-right: 200px;
+}
+#row6 h4{
+  color: #031b4e;
+  font-size: 18px;
+  font-family: Sailec-Bold,system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Helvetica,Arial,sans-serif;
+  font-weight: 400;
+  margin-right: 100px;
+  margin-top: 10px;
+}
+#row6 p{
+  text-align: left;
+  color: rgba(3,27,78,.7);
+  margin-left: 80px;
+  font-size: 18px;
+}
+#row6 a{
+  color: #0248ff;
+  margin-right: 210px;
+  font-size: 18px;
+  display: inline-block;
+}
+#right2{
+  color: #0248ff;
+  
+}
