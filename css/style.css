@@ -242,7 +242,6 @@ margin-top: 20px;
 #row6 p{
   text-align: left;
   color: rgba(3,27,78,.7);
-  margin-left: 80px;
   font-size: 18px;
 }
 #row6 a{
@@ -253,5 +252,31 @@ margin-top: 20px;
 }
 #right2{
   color: #0248ff;
-  
+}
+#time{
+  color: #0248ff;
+  font-size: 50px;
+  margin-top: 50px;
+  margin-right: 200px;
+}
+#right3{
+  color: #0248ff;
+}
+#tag{
+  color: #0248ff;
+  font-size: 50px;
+  margin-top: 50px;
+  margin-right: 200px;
+}
+#right4{
+  color: #0248ff;
+}
+#spilla{
+  color: #0248ff;
+  font-size: 50px;
+  margin-top: 50px;
+  margin-right: 200px;
+}
+#right5{
+  color: #0248ff;
 }
