@@ -218,7 +218,7 @@ margin-top: 50px;
 margin-top: 20px;
 }
 #row6{
-  height: 450px;
+  height: 650px;
   text-align: center;
 }
 #row6 h2{
@@ -279,4 +279,14 @@ margin-top: 20px;
 }
 #right5{
   color: #0248ff;
+}
+#row7{
+  height: 650px;
+  background-image:url("../img/mappa.jpg");
+  text-align: center;
+  padding: 70px;
+}
+#row7 h2{
+  color: white;
+  font-size: 40px;
 }
