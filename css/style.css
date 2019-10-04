@@ -183,8 +183,45 @@ margin-top: 50px;
   color: #0248ff;
 }
 #row5{
-  height: 700px;
+  height: 900px;
   text-align: center;
   margin-top: 100px;
   background-color: #f3f5f9;
+}
+#row5 h2{
+  color: #031b4e;
+  font-size: 40px;
+  margin-top: 70px;
+  margin-bottom: 20px;
+}
+#row5 p{
+  font-size: 20px;
+  color: rgba(3,27,78,.7);
+}
+#row5 img{
+  text-align: center;
+  height: 450px;
+  width: 700px;
+  display: inline-block;
+}
+#left{
+  display: inline-block;
+  margin-right: 50px;
+  font-size: 30px;
+}
+#right{
+  display: inline-block;
+  margin-left: 50px;
+  font-size: 30px;
+}
+.testodiverso{
+margin-top: 20px;
+}
+#row6{
+  height: 450px;
+  text-align: center;
+}
+#row6 h2{
+  color: #031b4e;
+  font-size: 40px;
 }
